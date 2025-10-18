@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Basketball Scoreboard</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="icon" type="image/x-icon" href="/src/favicon.ico">
+    </head>
+    <body class="bg">
+        <div id="outer-container">    
+            <div class="container">
+                <div class="column-container">
+                    <h3>HOME</h3>
+                    <div id="home-display" class="display">
+                        <h4 id="home-points" class="cursed-timer-font">0</h4>
+                    </div>
+                    <div class="flex button-container cursed-timer-font">                    
+                        <div class="button flex" onclick="addPoints('HOME',1)">+1</div>
+                        <div class="button flex" onclick="addPoints('HOME',2)">+2</div>
+                        <div class="button flex" onclick="addPoints('HOME',3)">+3</div>
+                    </div>
+                </div>
+                <div class="extra-buttons-container">
+                    <button class="cursed-timer-font" onclick="reset()">Reset</button>
+                </div>
+                <div class="column-container">
+                    <h3>GUEST</h3>
+                    <div id="guest-display" class="display">
+                        <h4 id="guest-points" class="cursed-timer-font">0</h4>
+                    </div>
+                    <div class="flex button-container cursed-timer-font">                    
+                        <div class="button flex" onclick="addPoints('GUEST',1)">+1</div>
+                        <div class="button flex" onclick="addPoints('GUEST',2)">+2</div>
+                        <div class="button flex" onclick="addPoints('GUEST',3)">+3</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

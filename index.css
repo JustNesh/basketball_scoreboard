@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'Cursed Timer Ulil';
+    src: url('src/CursedTimerUlil-Aznm.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.cursed-timer-font{
+    font-family: 'Cursed Timer Ulil';
+    font-weight: lighter;
+}
+
+h4{
+    font-size: 120px;
+    color: #F94F6D;
+    margin: 10px auto 0 auto;
+    text-shadow: 0 0 10px #F94F6D;
+}
+
+.column-container{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+    /* background: linear-gradient(45deg, #ff8506, #c7b86e); */
+}
+
+.bg {
+  width: 100%;
+  height: 100vh;
+  background-size: 300% 300%;
+  background-image: linear-gradient(to right, 
+  rgb(255, 0, 0) 0%,
+  yellow 14.29%,
+  rgb(9, 255, 0) 28.58%, 
+  rgb(8, 237, 245) 57%, 
+  rgb(55, 0, 255) 71%,
+  rgb(255, 0, 170) 86%, 
+  rgb(255, 0, 0) 100%);
+  -webkit-animation: AnimateBG 20s ease infinite;
+          animation: AnimateBG 20s ease infinite;
+}
+
+@-webkit-keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+#outer-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 800px;
+    height: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.display{
+    border-radius: 10px;
+    width: 200px;
+    height: 160px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #1B244A;
+}
+
+h3{
+    font-size: 40px;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+.button-container{
+    margin: 20px 0 0 0;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+.button{
+    color: #9AABD8;
+    width: fit-content;
+    padding: 10px 10px;
+    align-items: center;
+    border: 2px solid #9AABD8; 
+    border-radius: 10px;
+}
+
+.extra-buttons-container{
+    position:absolute;
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+button{
+    margin: 0 0 0 0;
+    width: fit-content;
+    padding: 10px 20px;
+    background-color: #1B244A;
+    border-radius: 10px;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    font-size: 25px;
+}
