@@ -60,3 +60,8 @@ const reset = () =>{
     guestDisplayEl.style.border = "2px solid #1B244A";
     guestDisplayEl.style.boxShadow = "";
 }
+
+window.addPoints = addPoints;
+window.reset = reset;
+window.processCurrentWinner = processCurrentWinner;
+window.processWhoIsWinning = processWhoIsWinning;
