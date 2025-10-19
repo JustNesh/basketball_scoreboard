@@ -29,7 +29,10 @@ const processCurrentWinner = () => {
         homeDisplayEl.style.border = "2px solid #1B244A"
         homeDisplayEl.style.boxShadow = ""
     } else {
-
+        homeDisplayEl.style.border = "2px solid white";
+        homeDisplayEl.style.boxShadow = "0 0 10px white";
+        guestDisplayEl.style.border = "2px solid white";
+        guestDisplayEl.style.boxShadow = "0 0 10px white";               
     }
 }
 
